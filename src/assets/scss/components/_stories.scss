@@ -1,0 +1,22 @@
+.no-image-story {
+    margin-top: $global-margin;
+    margin-bottom: $global-margin;
+
+    text-align: center;
+
+    h4 {
+        font-weight: bold;
+
+        &::after {
+            display: block;
+            content: '';
+            width: 4rem;
+            margin: $global-margin auto;
+            border: 2px solid rgba(0, 0, 0, .1);
+        }
+    }
+
+    p {
+        color: $dark-gray;
+    }
+}
