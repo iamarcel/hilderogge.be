@@ -60,6 +60,7 @@
 @import "components/nav";
 @import "components/footer";
 @import "components/stories";
+@import "components/quote-box";
 
 .margin-top {
     margin-top: $global-margin;
@@ -67,6 +68,14 @@
 
 .margin-bottom {
     margin-bottom: $global-margin;
+}
+
+.padding-top {
+    padding-top: $global-padding;
+}
+
+.padding-bottom {
+    padding-bottom: $global-padding;
 }
 
 article {
