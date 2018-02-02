@@ -86,3 +86,19 @@ article {
     }
 }
 
+
+.mt1 {
+  margin-top: 1 * $global-margin;
+}
+
+.mt2 {
+  margin-top: 2 * $global-margin;
+}
+
+.mt3 {
+  margin-top: 3 * $global-margin;
+}
+
+small {
+  color: rgba(0, 0, 0, .6);
+}
