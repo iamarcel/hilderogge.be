@@ -1,3 +1,9 @@
+import $ from 'jquery';
+import whatInput from 'what-input';
+import Foundation from 'foundation-sites';
+import 'photoset-grid';
+import 'jquery-colorbox';
+
 $(document).foundation();
 
 $('.photo-gallery').photosetGrid({
