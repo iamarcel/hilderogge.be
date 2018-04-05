@@ -62,6 +62,9 @@
 @import "components/stories";
 @import "components/quote-box";
 
+@import "jquery.fancybox";
+@import "jquery.justified";
+
 .margin-top {
     margin-top: $global-margin;
 }
@@ -113,4 +116,14 @@ article {
 
 small {
   color: rgba(0, 0, 0, .6);
+}
+
+.photo-gallery .columns {
+    margin-bottom: $global-margin;
+    // height: 140px;
+    // overflow: hidden;
+}
+
+.photo-gallery {
+    display: none;
 }
