@@ -1,5 +1,6 @@
 ---
 title: Kwade Reuk
+date: 2018-07-15
 weight: 2
 resources:
   - name: header

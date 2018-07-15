@@ -1,5 +1,6 @@
 ---
 title: Oeroude Volksverhalen
+date: 2018-07-15
 weight: 1
 resources:
   - name: header

@@ -1,5 +1,6 @@
 ---
 title: Annabel Snottebel
+date: 2018-07-15
 weight: 4
 resources:
   - name: header

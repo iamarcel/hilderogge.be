@@ -1,6 +1,7 @@
 ---
 title: Bio
 subtitle: Hilde Rogge is een verhalenvertelster pur sang.
+date: 2018-07-15
 hide_title: true
 resources:
   - name: header

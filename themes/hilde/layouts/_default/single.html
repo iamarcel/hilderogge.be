@@ -2,6 +2,7 @@
 {{- block "header" . }}
 {{- partial "header.html" . -}}
 {{- end }}
+{{ partial "schema" . }}
 <main id="content" class="">
   {{ with .Resources.GetMatch "header" }}
   <div class="max-h-6 overflow-hidden">

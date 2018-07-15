@@ -1,4 +1,24 @@
 {{ define "body" }}
+<script type="application/ld+json">
+ {
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "{{ .Permalink }}",
+   "name": "{{ .Site.Title }}",
+   "author": {
+     "@type": "Person",
+     "name": "{{ range .Site.Author }}{{ . }}{{ end }}"
+   },
+   "telephone": "{{ safeHTML .Site.Params.telephone }}",
+   "email": "{{ safeHTML .Site.Params.email }}",
+   "description": "{{ .Site.Params.description }}",
+   "sameAs" : [
+     {{ if isset .Site.Social "facebook" }}"https://facebook.com/{{.Site.Social.facebook}}",{{end}}
+   ]
+ }
+</script>
+
+
 <main id="content" class="w-100 vh-100 cover flex flex-column justify-end white bg-center"
       style="background-image:url(/img/home-hero.jpg)">
   <div class="pa4 pa5-ns o-80" itemscope itemtype="http://schema.org/Person">

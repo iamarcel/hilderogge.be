@@ -1,20 +1,24 @@
 baseURL: 'https://hilderogge.be/'
+title: Hilde Rogge
 languageCode: nl
 theme: hilde
-author: Hilde Rogge
+author:
+  hilde: Hilde Rogge
 
 params:
   title: Hilde Rogge
   description: "Hilde Rogge is een verhalenvertelster pur sang."
   site_description: "Hilde Rogge is een verhalenvertelster pur sang."
-  locale: nl-be
+  locale: nl-BE
   images:
     - "https://hilderogge.be/img/home-hero.jpg"
+  telephone: "+32495407025"
+  email: "hilde.rogge@outlook.com"
   copyright: 'Copyright &copy; Hilde Rogge, 2018'
   developer: "Ontwikkeld door [Marcel Samyn](https://samyn.co)"
 
 social:
-  facebook: "hilde.rogge"
+  facebook: "hilde.rogge.5"
 
 menu:
   main:
