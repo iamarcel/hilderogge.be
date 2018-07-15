@@ -19,5 +19,3 @@ Is er uitzicht ? Bestaat beter ?
 Gelukkig is er … champignonsoep!
 
 Deze muzikale vertelling is gebaseerd op een oeroud sprookje van Grimm. Over malheur en mazzel. Over een geluk bij een ongeluk. En over champignonsoep. Een vertelling vol vertedering, spanning en humor. 
-
-{{% contact %}}

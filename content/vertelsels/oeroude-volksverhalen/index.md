@@ -15,5 +15,3 @@ Omdat ze de menselijke geest verheffen boven de alledaagsheid.
 Omdat ze raken in onze diepse zielenroerselen.
 
 En nog het meest … omdat ze betovering bieden in de herinnering. 
-
-{{% contact %}}

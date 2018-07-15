@@ -32,5 +32,3 @@ Of gewoon Annabel, met en zonder getier?
 Een verhaal vrij naar “Prinsesje Annabel” van Annie M.G. Schmidt.  
 Een verhaal vol humor en tristesse.  
 Een verhaal over de worsteling van “worden wie we zijn.” 
-
-{{% contact %}}

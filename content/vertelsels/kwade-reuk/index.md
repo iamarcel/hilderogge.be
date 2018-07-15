@@ -16,5 +16,3 @@ In Kwade Reuk nemen Hilde en Rein je mee in een onbeschaamd vermakelijke vertell
 Zij speelt met woorden en hij vertelt met klanken uit zijn accordeon.
 
 Gelieve deze avond zonder geurwater bij te wonen. 
-
-{{% contact %}}

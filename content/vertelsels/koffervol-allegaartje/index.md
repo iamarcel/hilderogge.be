@@ -16,5 +16,3 @@ Zelf verzonnnen verzinsels, sprookjes van Grimm, fabels van La Fontaine, verhale
 In het besef dat de wereld tragisch is en komisch tegelijk, waait er steeds een opgeruimde lichtvoetigheid door haar verhalen. 
 
 *In samenspraak maken we een mélange van verhalen op een bedje van humor en ontroering (meestal met een hoekje afgebeten).*
-
-{{% contact %}}
