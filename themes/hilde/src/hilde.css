@@ -1,3 +1,6 @@
+@import "~tachyons/css/tachyons.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
 body {
     scroll-behavior: smooth;
 }
@@ -295,7 +298,7 @@ nav.growing .grow:focus, nav.growing .grow:hover {
 
 .menu {
     min-height: 2rem;
-    max-height: 0;
+    max-height: 4rem;
     overflow: hidden;
     position: relative;
     transition: max-height 1s ease-out;
