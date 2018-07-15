@@ -1,0 +1,10 @@
+{{ $page := . }}
+{{ range .Site.Menus.main }}
+  {{ $is := $page.IsMenuCurrent "main" . }}
+  {{ $has := $page.HasMenuCurrent "main" . }}
+  <a class="no-underline near-white hover-white f6 f5-ns dib grow pa2 {{ if or $is $has }}b{{ end }}" href="{{ .URL }}" title="{{ .Name }}">
+    {{ .Pre }}
+    <span>{{ .Name }}</span>
+    {{ .Post }}
+  </a>
+{{ end }}

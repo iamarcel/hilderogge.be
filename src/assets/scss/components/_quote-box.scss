@@ -1,9 +1,0 @@
-.quote-box {
-    background: map-get($foundation-palette, primary);
-    @include light-text;
-    text-align: center;
-
-    p.lead {
-      line-height: 4em;
-    }
-}

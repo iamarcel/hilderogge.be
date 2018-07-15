@@ -1,0 +1,50 @@
+{{ define "body" }}
+{{- block "header" . }}
+{{- partial "header.html" . -}}
+{{- end }}
+<div id="content" class="">
+  {{ with .Resources.GetMatch "header" }}
+  <div class="max-h-6 overflow-hidden">
+    {{ $image := .Fill "1920x720" }}
+    <img src="{{ $image.RelPermalink }}" class="w-100 db" itemprop="image">
+  </div>
+  {{ end }}
+  {{ if .Page.Params.subtitle }}
+  <p class="pa4 mt0 near-white bg-hilde tc f3 lh-copy">
+    {{ .Page.Params.subtitle }}
+  </p>
+  {{ else if .Resources.GetMatch "header" }}
+  <div class="pa3 mt0 near-white bg-hilde"></div>
+  {{ end }}
+
+  <div class="flex justify-center flex-column flex-row-ns mw8 center">
+
+    <aside class="w-third-ns sidebar">
+      <ul class="list pa3 pa4-ns lh-copy mt4 mb0 pb0 measure sidebar__inner">
+        {{ range .Data.Pages }}
+        <li><a href="#{{ .UniqueID }}" class="hilde no-underline pv2 dib grow">{{ .Title }}</a></li>
+        {{ end }}
+        <a href="/contact" class="dib bg-hilde w-100 pv2 mt3 link white tc pointer">Bel Me</a>
+      </ul>
+    </aside>
+
+    <main class="w-two-thirds-ns pa3 pa4-ns mw9">
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      <article class="lh-copy measure">
+        <a name="{{ .UniqueID }}"></a>
+        <h2 class="f2 lh-title mt4"><a href="{{ .Permalink }}" class="no-underline black">{{ .Title }}</a></h2>
+        {{ with .Resources.GetMatch "header" }}
+        <img src="{{ .RelPermalink }}" itemprop="image">
+        {{ end }}
+        <div class="">
+          {{ .Content }}
+        </div>
+      </article>
+      {{ end }}
+    </main>
+
+  </div>
+</div>
+{{- partial "footer.html" . -}}
+{{ end }}

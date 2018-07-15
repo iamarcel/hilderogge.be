@@ -1,0 +1,48 @@
+baseURL: 'https://hilderogge.be/'
+languageCode: nl
+theme: hilde
+author: Hilde Rogge
+
+params:
+  title: Hilde Rogge
+  description: "Hilde Rogge is een verhalenvertelster pur sang."
+  site_description: "Hilde Rogge is een verhalenvertelster pur sang."
+  locale: nl-be
+  images:
+    - "https://hilderogge.be/img/home-hero.jpg"
+  copyright: 'Copyright &copy; Hilde Rogge, 2018'
+  developer: "Ontwikkeld door [Marcel Samyn](https://samyn.co)"
+
+social:
+  facebook: "hilde.rogge"
+
+menu:
+  main:
+    - identifier: home
+      name: Hilde Rogge
+      title: Hilde Rogge
+      url: /
+      weight: 1
+    - identifier: bio
+      name: Bio
+      title: Bio
+      url: /bio/
+      weight: 2
+    - identifier: vertelsels
+      name: Vertelsels
+      title: Vertelsels
+      url: /vertelsels/
+      weight: 3
+    - identifier: fotos
+      name: Foto's
+      title: Foto's
+      url: /fotos/
+      weight: 4
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: /contact/
+      weight: 5
+
+enableRobotsTXT: true
+canonifyURLs: true

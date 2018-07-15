@@ -1,0 +1,37 @@
+{{ define "body" }}
+{{- block "header" . }}
+{{- partial "header.html" . -}}
+{{- end }}
+<div id="content" class="">
+  {{ with .Resources.GetMatch "header" }}
+  <div class="max-h-5 overflow-hidden">
+    {{ $image := .Fill "1920x720" }}
+    <img src="{{ $image.RelPermalink }}" class="w-100 db" itemprop="image">
+  </div>
+  {{ end }}
+  {{ if .Page.Params.subtitle }}
+  <p class="pa4 mt0 near-white bg-hilde tc f3 lh-copy">
+    {{ .Page.Params.subtitle }}
+  </p>
+  {{ end }}
+
+  <div class="flex justify-center flex-column flex-row-ns">
+
+    <main class="pa3 pa4-ns mw9">
+    {{ with .Resources.Match "photos" }}
+      <ul class="photo-grid">
+        {{ range . }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="gallery-photo">
+            <img src="{{ (.Resize "x256").RelPermalink }}">
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    </main>
+
+  </div>
+</div>
+{{- partial "footer.html" . -}}
+{{ end }}

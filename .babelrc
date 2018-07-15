@@ -1,4 +1,1 @@
-{
-  "presets": ["env"],
-  "compact": false
-}
+{ "presets": ["env"] }

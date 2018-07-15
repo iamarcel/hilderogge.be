@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>{{ if .Title}}{{ .Title }} | {{ end }}{{ .Site.Params.Title }}</title>
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else if .Site.Params.Description }}
+<meta name="description" content="{{ .Site.Params.Description }}">
+{{ end }}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/google_news.html" . }}
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+
+
+<link rel="stylesheet" href="{{ "/css/tachyons.min.css" | relLangURL }}">
+<link rel="stylesheet" href="{{ "/css/hilde.css" | relLangURL }}">
+{{ range .Site.Params.custom_css }}
+<link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
+{{ end }}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">

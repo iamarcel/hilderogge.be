@@ -1,0 +1,15 @@
+{{ define "body" }}
+<main id="content" class="w-100 vh-100 cover flex flex-column justify-end white bg-center"
+      style="background-image:url(/img/home-hero.jpg)">
+  <div class="pa4 pa5-ns o-80" itemscope itemtype="http://schema.org/Person">
+    <h1 class="f-headline lh-solid pa1 mb2 fw1" itemprop="name">Hilde Rogge</h1>
+    <nav class="flex items-center justify-start">
+      {{ partial "menu" . }}
+      <a href="https://facebook.com/hilde.rogge" itemprop="sameAs"
+         class="white grow f6 f5-ns hover-white ma2">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+    </nav>
+  </div>
+</main>
+{{ end }}

@@ -1,0 +1,30 @@
+{{ define "body" }}
+{{- block "header" . }}
+{{- partial "header.html" . -}}
+{{- end }}
+<main id="content" class="">
+  {{ with .Resources.GetMatch "header" }}
+  <div class="max-h-6 overflow-hidden">
+    {{ $image := .Fill "1920x720" }}
+    <img src="{{ $image.RelPermalink }}" class="w-100 db" itemprop="image">
+  </div>
+  {{ end }}
+  {{ if .Page.Params.subtitle }}
+  <p class="pa4 mt0 near-white bg-hilde tc f3 lh-copy">
+    {{ .Page.Params.subtitle }}
+  </p>
+  {{ else if .Resources.GetMatch "header" }}
+  <div class="pa3 mt0 near-white bg-hilde"></div>
+  {{ end }}
+
+  <main class="pa3 pa4-ns pt0 pt0-ns mw9 center">
+    <article class="lh-copy measure center">
+      {{ if ne .Page.Params.hide_title true }}
+        <h2 class="lh-title f1">{{ .Title }}</h2>
+      {{ end }}
+      {{ .Content }}
+    </article>
+  </main>
+</main>
+{{- partial "footer.html" . -}}
+{{ end }}
