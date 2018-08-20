@@ -5,7 +5,7 @@
 <div id="content" class="">
   {{ with .Resources.GetMatch "header" }}
   <div class="max-h-6 overflow-hidden">
-    {{ $image := .Fill "1920x720" }}
+    {{ $image := .Fill "1920x720 Center" }}
     <img src="{{ $image.RelPermalink }}" class="w-100 db" itemprop="image">
   </div>
   {{ end }}
