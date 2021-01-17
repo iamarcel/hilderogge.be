@@ -23,4 +23,4 @@ Na een leven als bezielde leerkracht kruipt Hilde vol begeestering in de huid va
 
 Ze is onafgebroken onvermoeid onderweg. Alleen of samen met andere vertellers, muzikanten, dansers en ander voedend gezelschap.
 
-{{% contact %}}
+{{< contact >}}
