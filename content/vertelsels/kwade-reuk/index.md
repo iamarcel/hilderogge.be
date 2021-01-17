@@ -1,12 +1,15 @@
 ---
 title: Kwade Reuk
-date: 2018-07-15
+date: 2017-07-15
 weight: 2
 resources:
   - name: header
     src: kwade-reuk.jpg
 images:
   - /vertelsels/kwade-reuk/kwade-reuk.jpg
+summary: Volstrekt oneerbiedige, hilarische verhalen van Roald Dahl.
+tags:
+- volwassenen
 ---
 
 Hoe Oswald Hendryks Cornelius zaliger - kunstkenner, bon-vivant, verzamelaar van spinnen, schorpioenen en wandelstokken, expert op het gebied van Chinees porselein en grootste vrouwenverleider aller tijden - zich precies opwerkte tot in de hoogste maatschappelijke kringen, is een volstrekt oneerbiedig, hilarisch verhaal.

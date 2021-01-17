@@ -1,0 +1,13 @@
+{{ range . }}
+<article class="lh-copy measure">
+  <a name="{{ .UniqueID }}"></a>
+  <h2 class="f3 lh-title mt4"><a href="{{ .Permalink }}" class="no-underline black">{{ .Title }}</a></h2>
+  {{ with .Resources.GetMatch "header" }}
+    {{ $img := (.Fill "480x320").Filter (images.Brightness 5) (images.Saturation -60) (images.Colorize 90 17 60) }}
+    <img src="{{ $img.RelPermalink }}" itemprop="image">
+  {{ end }}
+  <div class="">
+    {{ .Summary }}
+  </div>
+</article>
+{{ end }}

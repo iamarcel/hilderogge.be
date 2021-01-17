@@ -7,6 +7,9 @@ resources:
     src: broer-en-zus-en-champignonsoep.jpg
 images:
   - /vertelsels/broer-en-zus-en-champignonsoep/broer-en-zus-en-champignonsoep.jpg
+summary: Gebaseerd op een oeroud sprookje van Grimm. Over malheur en mazzel. Geluk bij een ongeluk.
+tags:
+- kinderen
 ---
 
 Thuis stinkt het. Hangt storing in de lucht.  
