@@ -29,19 +29,7 @@
     </aside>
 
     <main class="w-two-thirds-ns pa3 pa4-ns mw9">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
-      <article class="lh-copy measure">
-        <a name="{{ .UniqueID }}"></a>
-        <h2 class="f2 lh-title mt4"><a href="{{ .Permalink }}" class="no-underline black">{{ .Title }}</a></h2>
-        {{ with .Resources.GetMatch "header" }}
-        <img src="{{ .RelPermalink }}" itemprop="image">
-        {{ end }}
-        <div class="">
-          {{ .Content }}
-        </div>
-      </article>
-      {{ end }}
+      {{ partial "post-list" .Data.Pages }}
     </main>
 
   </div>
