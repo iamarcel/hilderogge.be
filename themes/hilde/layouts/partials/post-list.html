@@ -1,6 +1,6 @@
 {{ range . }}
 <article class="lh-copy measure">
-  <a name="{{ .UniqueID }}"></a>
+  <a name="{{ .LinkTitle }}"></a>
   <h2 class="f3 lh-title mt4"><a href="{{ .Permalink }}" class="no-underline black dim">{{ .Title }}</a></h2>
   <a href="{{ .Permalink }}">
   {{ with .Resources.GetMatch "preview" }}
