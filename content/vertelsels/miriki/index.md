@@ -1,7 +1,6 @@
 ---
 title: Het verhaal van Miriki
 date: 2019-03-01
-weight: 1
 resources:
   - name: header
     src: miriki.jpg

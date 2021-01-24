@@ -1,7 +1,6 @@
 ---
 title: Knuffelvoyage door Europa
 date: 2020-10-01
-weight: 1
 resources:
   - name: header
     src: knuffelvoyage-europa.jpg

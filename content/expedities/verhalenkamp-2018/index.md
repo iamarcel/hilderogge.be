@@ -1,7 +1,6 @@
 ---
 title: Verhalenkamp 2018
 date: 2018-07-01
-weight: 2
 resources:
 - name: header
   src: verhalenkamp-2018.jpg

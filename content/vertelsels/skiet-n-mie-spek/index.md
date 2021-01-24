@@ -1,7 +1,6 @@
 ---
 title: Skiet'n mie spek
 date: 2019-07-15
-weight: 1
 resources:
   - name: header
     src: skiet-n-mie-spek.jpg

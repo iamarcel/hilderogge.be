@@ -1,7 +1,6 @@
 ---
 title: Kinderkamp Verhalen & Meer!
 date: 2018-08-20
-weight: 2
 resources:
 - name: header
   src: kinderkamp.jpg

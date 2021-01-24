@@ -1,7 +1,6 @@
 ---
 title: Kinderfestival Oostende
 date: 2019-07-20
-weight: 2
 resources:
 - name: header
   src: kinderfestival-oostende.jpg

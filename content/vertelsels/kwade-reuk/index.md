@@ -1,7 +1,6 @@
 ---
 title: Kwade Reuk
 date: 2017-07-15
-weight: 2
 resources:
   - name: header
     src: kwade-reuk.jpg

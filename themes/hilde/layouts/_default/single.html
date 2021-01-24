@@ -5,8 +5,8 @@
 {{ partial "schema" . }}
 <main id="content" class="">
   {{ with .Resources.GetMatch "header" }}
-  <div class="max-h-6 overflow-hidden">
-    {{ $image := (.Fill "1920x720").Filter (images.Brightness 5) (images.Colorize 90 17 80) }}
+  <div class="overflow-hidden">
+    {{ $image := (.Fill "1920x720 Smart").Filter (images.Brightness 5) (images.Colorize 90 17 80) }}
     <img src="{{ $image.RelPermalink }}" class="w-100 db" itemprop="image">
   </div>
   {{ end }}

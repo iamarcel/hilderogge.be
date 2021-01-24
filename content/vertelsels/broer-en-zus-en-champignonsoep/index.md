@@ -1,7 +1,6 @@
 ---
 title: Broer & Zus & Champignonsoep
 date: 2018-07-15
-weight: 3
 resources:
   - name: header
     src: broer-en-zus-en-champignonsoep.jpg

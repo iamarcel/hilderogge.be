@@ -1,7 +1,6 @@
 ---
 title: Het Hartroerende Verhaal van Hartenhaas
 date: 2021-01-01
-weight: 1
 resources:
   - name: header
     src: hartenhaas.jpg

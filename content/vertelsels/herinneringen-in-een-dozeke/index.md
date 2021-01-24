@@ -1,7 +1,6 @@
 ---
 title: Herinneringen in een dozeke
 date: 2018-07-15
-weight: 1
 resources:
   - name: header
     src: herinneringen-in-een-dozeke.jpg

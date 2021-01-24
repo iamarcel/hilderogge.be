@@ -1,7 +1,6 @@
 ---
 title: Fabuleuze Visite!
 date: 2020-03-01
-weight: 1
 resources:
   - name: header
     src: fabuleuze-visite.jpg

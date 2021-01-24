@@ -1,7 +1,6 @@
 ---
 title: De Familie Von Voorlezen
 date: 2019-08-20
-weight: 2
 resources:
 - name: header
   src: familie-voorlezen.jpg

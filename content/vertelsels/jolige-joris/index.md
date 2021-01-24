@@ -1,7 +1,6 @@
 ---
 title: Jolige Joris en zijn Bouwvallige Bomma
 date: 2019-10-01
-weight: 1
 resources:
   - name: header
     src: jolige-joris.jpg

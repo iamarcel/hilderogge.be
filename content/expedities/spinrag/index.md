@@ -1,7 +1,6 @@
 ---
 title: Spinrag Kinderkunstfestival Kortrijk
 date: 2018-08-20
-weight: 2
 resources:
 - name: header
   src: spinrag.jpg

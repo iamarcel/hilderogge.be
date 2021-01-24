@@ -1,7 +1,6 @@
 ---
 title: A Christmas Carol van Charles Dickens
 date: 2020-12-25
-weight: 1
 resources:
   - name: header
     src: a-christmas-carol.jpg

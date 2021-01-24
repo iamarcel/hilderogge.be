@@ -1,7 +1,6 @@
 ---
 title: Verhalen in de Stad!
 date: 2019-09-03
-weight: 2
 resources:
 - name: header
   src: verhalen-in-de-stad.jpg

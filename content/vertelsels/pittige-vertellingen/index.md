@@ -1,7 +1,6 @@
 ---
 title: Pittige vertellingen
 date: 2016-07-15
-weight: 1
 resources:
   - name: header
     src: pittige-vertellingen.jpg

@@ -1,7 +1,6 @@
 ---
 title: Jaarconcert Cadans
 date: 2019-03-17
-weight: 1
 resources:
   - name: header
     src: jaarconcert-cadans.jpg

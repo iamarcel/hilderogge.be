@@ -1,7 +1,6 @@
 ---
 title: Verhalenkamp 2020
 date: 2020-07-01
-weight: 2
 resources:
 - name: header
   src: verhalenkamp-2020.jpg

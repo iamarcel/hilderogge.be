@@ -1,7 +1,6 @@
 ---
 title: Verhalenkamp 2021
 date: 2021-07-01
-weight: 2
 resources:
 - name: header
   src: verhalenkamp-2021.jpg

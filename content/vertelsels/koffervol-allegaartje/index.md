@@ -1,7 +1,6 @@
 ---
 title: Koffervol Allegaartje
 date: 2018-07-15
-weight: 5
 resources:
   - name: header
     src: koffervol-allegaartje.jpg
