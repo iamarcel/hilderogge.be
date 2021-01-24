@@ -22,7 +22,7 @@
     <aside class="w-third-ns sidebar">
       <ul class="list pa3 pa4-ns lh-copy mt4 mb0 pb0 measure sidebar__inner">
         {{ range .Data.Pages }}
-        <li><a href="#{{ .UniqueID }}" class="hilde no-underline pv2 dib grow">{{ .Title }}</a></li>
+        <li><a href="#{{ .LinkTitle }}" class="hilde no-underline pv2 dib grow">{{ .Title }}</a></li>
         {{ end }}
         <a href="/contact" class="dib bg-hilde w-100 pv2 mt3 link white tc pointer">Bel Me</a>
       </ul>

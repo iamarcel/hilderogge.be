@@ -1,7 +1,6 @@
 ---
 title: Koffervol Allegaartje
 date: 2018-07-15
-weight: 5
 resources:
   - name: header
     src: koffervol-allegaartje.jpg
@@ -19,3 +18,5 @@ Sprokkels en vertelsels van overal. Zelf verzonnnen verzinsels, oeroude volksver
 In het besef dat de wereld tragisch is en komisch tegelijk, waait er steeds een opgeruimde lichtvoetigheid door haar verhalen.
 
 *In samenspraak maken we een mélange van verhalen op een bedje van humor en ontroering (meestal met een hoekje afgebeten).*
+
+Kan met en zonder uitmuntend muzikant.

@@ -1,0 +1,9 @@
+<ul class="photo-grid">
+{{ range . }}
+<li>
+    <a href="{{ .RelPermalink }}" class="gallery-photo">
+    <img src="{{ (.Resize "x256").RelPermalink }}">
+    </a>
+</li>
+{{ end }}
+</ul>

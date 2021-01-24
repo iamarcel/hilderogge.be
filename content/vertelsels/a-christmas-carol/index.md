@@ -1,7 +1,6 @@
 ---
 title: A Christmas Carol van Charles Dickens
 date: 2020-12-25
-weight: 1
 resources:
   - name: header
     src: a-christmas-carol.jpg
@@ -24,7 +23,3 @@ Die nacht verandert zijn leven.
 Nog nooit heeft Stille Nacht zo mooi geklonken …
 
 Dit verhaal kan gebracht worden in samenwerking met een koor, een orkest, een harmonie …
-
-+ Digitaal
-
-

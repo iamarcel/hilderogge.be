@@ -14,7 +14,7 @@ params:
     - "https://hilderogge.be/img/home-hero.jpg"
   telephone: "+32495407025"
   email: "hilde.rogge@outlook.com"
-  copyright: 'Copyright &copy; Hilde Rogge, 2018'
+  copyright: 'Copyright &copy; Hilde Rogge'
   developer: "Ontwikkeld door [Marcel Samyn](https://samyn.co)"
 
 social:
@@ -42,16 +42,21 @@ menu:
       title: Expedities
       url: /expedities/
       weight: 4
+    - identifier: digitalalal
+      name: Digitalalala
+      title: Digitalalala
+      url: /digitalalala/
+      weight: 5
     - identifier: fotos
       name: Foto's
       title: Foto's
       url: /fotos/
-      weight: 5
+      weight: 6
     - identifier: contact
       name: Contact
       title: Contact
       url: /contact/
-      weight: 6
+      weight: 7
 
 enableRobotsTXT: true
 canonifyURLs: true

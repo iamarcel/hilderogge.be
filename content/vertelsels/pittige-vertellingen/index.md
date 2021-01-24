@@ -1,7 +1,6 @@
 ---
 title: Pittige vertellingen
 date: 2016-07-15
-weight: 1
 resources:
   - name: header
     src: pittige-vertellingen.jpg
@@ -22,3 +21,4 @@ Hilde Rogge dook in de zinnelijke , zondige en chaotische mensenwereld van Bocca
 Verhalen over liefde en lust vol ongepolijste levenslust , maar ook soms met een dramatisch kantje.
 Een meesterwerk meesterlijk verteld en subliem aangeblazen door Rein De Vos, uitmuntend muzikant in hart en nieren ! Appetijt verzekerd !
 
+Kan met en zonder uitmuntend muzikanten Rein De Vos en Stijn Bettens.

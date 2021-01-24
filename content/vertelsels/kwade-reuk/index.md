@@ -1,13 +1,12 @@
 ---
 title: Kwade Reuk
 date: 2017-07-15
-weight: 2
 resources:
   - name: header
     src: kwade-reuk.jpg
 images:
   - /vertelsels/kwade-reuk/kwade-reuk.jpg
-summary: Volstrekt oneerbiedige, hilarische verhalen van Roald Dahl.
+summary: Volstrekt oneerbiedige, hilarische verhalen van Roald Dahl. Samen met uitmuntend accordeonist Rein De Vos.
 tags:
 - volwassenen
 ---

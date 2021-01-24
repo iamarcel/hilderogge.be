@@ -13,6 +13,10 @@ body {
     background: #607050;
 }
 
+a {
+    color: #607050;
+}
+
 .max-h-1 {
     max-height: 1rem;
 }

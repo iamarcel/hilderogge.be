@@ -1,7 +1,6 @@
 ---
 title: Het verhaal van Miriki
 date: 2019-03-01
-weight: 1
 resources:
   - name: header
     src: miriki.jpg
@@ -9,6 +8,7 @@ images:
   - /vertelsels/miriki/miriki.jpg
 tags:
 - kinderen
+summary: Miriki is Mysterieus, maar Meesterlijk Menslievend. Hij houdt van regenwormen en chocoladekoeken. Van klimmen en kijken. Miriki draagt een raadsel vol draaiende pirouetjes met zich mee.
 ---
 
 Miriki is Mysterieus, maar Meesterlijk Menslievend.  
