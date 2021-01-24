@@ -24,6 +24,12 @@
         <h2 class="lh-title f1">{{ .Title }}</h2>
       {{ end }}
       {{ .Content }}
+
+      {{ if in .Params.tags "digitaal" }}
+        <div class="mw6 center bg-hilde white pa2 pa3-ns mv3 ba b--black-10 flex items-center">
+          <i class="fas fa-film lh-copy f6"></i><span class="ml2 lh-title f6">Ook digitaal verkrijgbaar als professionele opname.</span>
+        </div>
+      {{ end }}
     </article>
   </main>
 </main>

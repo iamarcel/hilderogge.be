@@ -9,6 +9,7 @@ images:
   - /vertelsels/jolige-joris/jolige-joris.jpg
 tags:
 - kinderen
+summary: Een dolkomisch verhaal over een gedesillusioneerde grootmoe en een pure jongen die heil zoekt in de natuur en in de verbeelding. Gebaseerd op Het Wonderlijke Insectenboek van Bart Rossel en een verhaal van Roald Dahl.
 ---
 
 Joris houdt van de boerderij waar hij woont. Hij houdt van de muren, de deuren, het dak.  

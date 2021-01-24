@@ -24,7 +24,3 @@ Die nacht verandert zijn leven.
 Nog nooit heeft Stille Nacht zo mooi geklonken …
 
 Dit verhaal kan gebracht worden in samenwerking met een koor, een orkest, een harmonie …
-
-+ Digitaal
-
-

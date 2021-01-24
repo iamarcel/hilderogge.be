@@ -1,5 +1,5 @@
 <footer class="mw-90 pa3 o-60 f6">
   <hr class="bb bw1 b--black-10">
-  {{ with .Site.Params.Copyright }}{{ . | markdownify}} &middot; {{ end }}
+  {{ with .Site.Params.Copyright }}{{ . | markdownify}}, {{ dateFormat "2006" now }} &middot; {{ end }}
   {{ with .Site.Params.Developer }}{{ . | markdownify}}{{ end }}
 </footer>

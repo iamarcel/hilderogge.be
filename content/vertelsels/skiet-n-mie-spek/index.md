@@ -9,6 +9,7 @@ images:
   - /vertelsels/skiet-n-mie-spek/skiet-n-mie-spek.jpg
 tags:
 - volwassenen
+summary: Een passioneel verhaal dat zijn oorsprong vindt in de vlasakkers van Vlaanderen. Uit de pen van Omer Wattez. Samen met virtuoos muzikant Stijn Bettens.
 ---
 
 Een passioneel verhaal dat zijn oorsprong vindt in de vlasakkers van Vlaanderen.  

@@ -18,17 +18,7 @@
   <div class="flex justify-center flex-column flex-row-ns">
 
     <main class="pa3 pa4-ns mw9">
-    {{ with .Resources.Match "photos" }}
-      <ul class="photo-grid">
-        {{ range . }}
-        <li>
-          <a href="{{ .RelPermalink }}" class="gallery-photo">
-            <img src="{{ (.Resize "x256").RelPermalink }}">
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    {{ end }}
+    {{ partial "photo-grid.html" (.Resources.Match "photos") }}
     </main>
 
   </div>

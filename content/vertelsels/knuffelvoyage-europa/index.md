@@ -11,6 +11,7 @@ tags:
 - kinderen
 - digitaal
 - lesbrief
+summary: Een verhalenvoyage door Europa. Uit elk land suizen vertelsels door de neus en vliegen de knuffels om de oren !
 ---
 
 Ik ben een Verzamelaar.  
@@ -26,7 +27,6 @@ Ga je mee ?
   
 Voor kleuter en lagere school is ook een creatieve lesbrief voorhanden  
 + info Vanessa Schokaert  
-+ filmpje op FBpagina Europa  
-+ Digitaal
++ filmpje op Facebook-pagina Europa
 
 Educatief aanbod voor het basisonderwijs, ook deels te gebruiken voor kleuters: Europese sticker(puzzels), Europese kleurboeken, een toffe wist-je-datjes poster, Europese tattoos,… Meer info [op de website van Oost-Vlaanderen](https://oost-vlaanderen.be/internationaal-samenwerken/europa/informatiepunt-europadirectied.html).

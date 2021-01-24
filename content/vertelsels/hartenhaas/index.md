@@ -10,6 +10,7 @@ images:
 tags:
 - kinderen
 - digitaal
+summary: Een dierenfabel. Een mensenverhaal. Een spannende story. Een Ode aan de Kunst tout court. Samen met excellent cellist Sven Weyens.
 ---
 
 Er is geen druppel water gevallen de laatste weken. Alle dieren worden bang. Want als er geen regen valt, is er geen water. En als er geen water is, is er geen leven. Alleen dood.
@@ -29,4 +30,3 @@ Sven Weyens is een uitmuntend muzikant en één brok energie. De cello is een st
 Samen vertellen ze een verhaal waar je blij van wordt. Een kwiek verhaal met woorden die je laten lachen en soms ook laten slikken.
 
 Bij het verhaal hoort ook een lesbrief met creatieve ideeën om achteraf in de klas mee aan de slag te gaan.  
-+ Digitaal

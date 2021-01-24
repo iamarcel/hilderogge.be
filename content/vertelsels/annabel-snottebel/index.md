@@ -7,7 +7,7 @@ resources:
     src: annabel-snottebel.jpg
 images:
   - /vertelsels/annabel-snottebel/annabel-snottebel.jpg
-summary: Een lekkerstoutverhaal. Gedurfd, grappig en grollig. Maar ook een beetje triest.
+summary: Een lekkerstoutverhaal. Gedurfd, grappig en grollig. Maar ook een beetje triest. Samen met prettig gestoorde percussionist Johan Derycke.
 tags:
 - kinderen
 - lesbrief

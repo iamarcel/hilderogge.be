@@ -21,3 +21,5 @@ Hilde duikt in het verhaal van Alma Droaijers, die in 1953 haar eigen ultra-mode
 Een verhaal dat betovering brengt in de herinnering maar ook een ontroerend geheim met zich meedraagt.  
 
 Stijn Bettens is Stille getuige en Top pianist ! Top accordeonist ! Eminent muzikant tout court !
+
+Kan met en zonder virtuoos muzikant Stijn Bettens.

@@ -12,3 +12,6 @@ hugo*
 # Generated files at default location
 /public/
 /resources/_gen
+
+# Local Netlify folder
+.netlify
