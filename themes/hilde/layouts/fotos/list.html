@@ -17,8 +17,10 @@
 
   <div class="flex justify-center flex-column flex-row-ns">
 
+
     <main class="pa3 pa4-ns mw9">
-    {{ partial "photo-grid.html" (.Resources.Match "photos") }}
+      {{ .Content }}
+      {{ partial "photo-grid.html" (.Resources.Match "photos") }}
     </main>
 
   </div>
